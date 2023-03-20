@@ -1,0 +1,343 @@
+/* Работает когда экран больше 768, но меньше 1301  */
+@media screen and (max-width: 1300px) {
+
+
+}
+
+/* Работает когда экран меньше 768  */
+@media screen and (max-width: 768px) {
+    .tel {
+        color: #FFFFFF;
+        text-decoration: none;
+        margin: 0;
+    }
+
+    .header-navigation {
+        display: none;
+    }
+
+    .header-content .button {
+        display: none;
+    }
+
+    .container {
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+
+    .section-one .title {
+        font-size: 23px;
+        line-height: 132.83%;
+    }
+
+    .section-one p {
+        font-size: 14px;
+        line-height: 135.84%;
+    }
+
+    .section-one .button {
+        width: 100%;
+    }
+
+    .section-one .button {
+        margin-left: 0;
+        margin-top: 26px;
+    }
+
+    .section-one {
+        height: auto;
+        padding-bottom: 60px;
+        padding-top: 86px;
+    }
+
+    .header-content {
+        height: 56px;
+    }
+
+    .gallery {
+        flex-direction: column;
+        padding-top: 0;
+
+    }
+
+    .gallery-title .title {
+        font-size: 22px;
+        line-height: 138.6%;
+        margin-top: 36px;
+        text-align: center;
+        margin-bottom: 26px;
+    }
+
+    .gallery-title p {
+        font-size: 11px;
+        line-height: 158.48%;
+        text-align: center;
+        margin-bottom: 72px;
+
+    }
+
+    .gallery-slider {
+        margin-bottom: 36px;
+    }
+
+    .gallery-footer h4 {
+        font-size: 22px;
+        line-height: 138.6%;
+    }
+
+    .section-three-top {
+        background: #131313;
+    }
+
+    .text-break {
+        margin-top: 28px;
+        align-self: center;
+    }
+
+    .contact-form .description {
+        font-size: 11px;
+        line-height: 169.8%;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+    .contact-form .form-row {
+        flex-direction: column;
+    }
+    .contact-form .label {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .contact-form .input {
+        color: #FFFFFF;
+        background: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        width: auto;
+
+    }
+
+    .contact-form .input::-moz-placeholder {
+        color: #FFFFFF;
+    }
+
+    .contact-form .input::-webkit-input-placeholder{
+        color: #FFFFFF;
+    }
+    .section-three .contact-form {
+        align-items: normal;
+    }
+
+    .form form {
+        flex-direction: column;
+    }
+
+    .contact-form .checkbox-group {
+        color: #FFFFFF;
+        justify-content: left;
+        margin-top: 26px;
+    }
+
+    .contact-form .form {
+        margin-top: 60px;
+    }
+
+    .contact-form .button {
+        margin-left: 0;
+        width: auto;
+        border-radius: 0;
+        margin-top: 60px;
+        margin-bottom: -25px;
+    }
+
+    .img-types {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 60px;
+    }
+    .white-fon {
+        margin-left: 0;
+        margin-right: 64px;
+    }
+
+    .img-types .button-price {
+        margin-left: 0;
+    }
+
+    .img-types .services {
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+
+    .img-types .list-of-services {
+        line-height: 169.8%;
+    }
+
+    .img-types .button-price {
+        font-size: 15px;
+        line-height: 138.6%;
+        width: 190px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        margin-top: -20px;
+        border-radius: 0;
+    }
+
+    .section-four, .section-five, .section-six {
+        display: none;
+    }
+
+    .design-title .title {
+        font-family: 'YesevaOne';
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+        margin-top: 55px;
+        margin-bottom: 24px;
+
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .questions {
+        margin-top: 0;
+    }
+
+    .questions-container {
+        padding: 37% 0 0 0;
+        position: inherit;
+    }
+
+    .questions .form {
+        padding: 0;
+    }
+
+    .questions .input-row {
+        grid-template-columns: auto;
+    }
+
+    .questions .button-group {
+        align-items: normal;
+        gap: 66px;
+    }
+
+    .questions .button {
+        width: auto;
+        border-radius: 0;
+        margin-bottom: 46px;
+    }
+
+    .section-seven .background-image {
+        background-image: none;
+        background: transparent;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .questions-container .mobile-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .map iframe {
+        height: 255px;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .question-form {
+        gap: 0;
+    }
+
+    .question-form > .input-group {
+        margin-top: 58px;
+    }
+
+    .questions .checkbox-group {
+        margin-top: 20px;
+    }
+
+    .mobile-slider{
+        position: relative;
+        margin-bottom: 36px;
+    }
+
+    .mobile-slider-container{
+        top: 50%;
+        position: absolute;
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        width: 100%;
+    }
+
+    .mobile-slider-container .mobile-slide {
+        width: 100%;
+    }
+
+    .mobile-slider-container .button-container {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 0 10px;
+
+
+    }
+
+    .section-three-bottom {
+        padding-bottom: 37%;
+    }
+
+    .button-container .slide-button {
+        width: 36px;
+        height: 36px;
+        background: #E3B873;
+        box-shadow: 0px 0px 15px rgba(227, 184, 115, 0.5);
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .mobile-grid {
+        display: grid;
+    }
+
+    .gallery-right .mobile-slider-container {
+        top: inherit;
+        position: inherit;
+        -webkit-transform: none;
+        transform: none;
+    }
+    .gallery-info h4 {
+        font-size: 14px;
+        line-height: 138.6%;
+    }
+
+    .gallery-info p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .gallery-footer {
+        margin-top: 64px;
+    }
+
+
+
+
+
+
+
+
+}
